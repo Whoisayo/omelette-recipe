@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+  width: 100%;
+  line-height: 1.5;
+  fon-family: 'outfit';
+}
+
+.introduction-image img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.preparation {
+  width: 100%;
+  background-color: #E4CC8B;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.preparation h2 {
+  color: #263e0f;
+  }
+
+li {
+  padding: 10px;
+}
+
+li::marker {
+  color: #54452a;
+}
+
+.ingredients, .instructions {
+  border-bottom: 1px solid #ccc;
+}
+
+h1 {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+}
+h2 {
+  color: #54452a;
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+}
+
+.nutrient-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+  
+}
+
+.nutrition-items {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#calories, #protein, #carbs {
+  border-bottom: 1px solid #ccc;
+}
+
+.nutrition-items strong {
+  color: #54452a;
+}
+
+@media only screen and (max-width: 375px) {
+  /* Styles for mobile */
+  .preparation {
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  /* Styles for desktop */
+  .introduction-image img {
+    max-width: 1440px;
+  }
+}
